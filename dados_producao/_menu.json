@@ -1,0 +1,315 @@
+[
+  {
+    "nome": "Filmes | Comedia",
+    "arquivo": "filmes_comedia.json",
+    "total": 1515
+  },
+  {
+    "nome": "Filmes | Suspense",
+    "arquivo": "filmes_suspense.json",
+    "total": 791
+  },
+  {
+    "nome": "Filmes | Documentarios",
+    "arquivo": "filmes_documentarios.json",
+    "total": 765
+  },
+  {
+    "nome": "Filmes | Lancamentos 2026",
+    "arquivo": "filmes_lancamentos_2026.json",
+    "total": 98
+  },
+  {
+    "nome": "Filmes | Drama",
+    "arquivo": "filmes_drama.json",
+    "total": 2154
+  },
+  {
+    "nome": "Filmes | Acao",
+    "arquivo": "filmes_acao.json",
+    "total": 1282
+  },
+  {
+    "nome": "Filmes | Aventura",
+    "arquivo": "filmes_aventura.json",
+    "total": 382
+  },
+  {
+    "nome": "Filmes | Legendados",
+    "arquivo": "filmes_legendados.json",
+    "total": 961
+  },
+  {
+    "nome": "Filmes | Misterio",
+    "arquivo": "filmes_misterio.json",
+    "total": 138
+  },
+  {
+    "nome": "Filmes | Crime",
+    "arquivo": "filmes_crime.json",
+    "total": 364
+  },
+  {
+    "nome": "Filmes | Romance",
+    "arquivo": "filmes_romance.json",
+    "total": 531
+  },
+  {
+    "nome": "Filmes | Guerra",
+    "arquivo": "filmes_guerra.json",
+    "total": 112
+  },
+  {
+    "nome": "Filmes | Infantil",
+    "arquivo": "filmes_infantil.json",
+    "total": 811
+  },
+  {
+    "nome": "Filmes | Familia",
+    "arquivo": "filmes_familia.json",
+    "total": 176
+  },
+  {
+    "nome": "Filmes | Terror",
+    "arquivo": "filmes_terror.json",
+    "total": 1126
+  },
+  {
+    "nome": "Filmes | Fantasia",
+    "arquivo": "filmes_fantasia.json",
+    "total": 185
+  },
+  {
+    "nome": "Filmes | Oscar 2026",
+    "arquivo": "filmes_oscar_2026.json",
+    "total": 23
+  },
+  {
+    "nome": "Filmes | Nacionais",
+    "arquivo": "filmes_nacionais.json",
+    "total": 222
+  },
+  {
+    "nome": "Filmes | Ficção",
+    "arquivo": "filmes_ficcao.json",
+    "total": 290
+  },
+  {
+    "nome": "Filmes | Religiosos",
+    "arquivo": "filmes_religiosos.json",
+    "total": 117
+  },
+  {
+    "nome": "Filmes | Selecionados",
+    "arquivo": "filmes_4k_uhd.json",
+    "total": 63
+  },
+  {
+    "nome": "Filmes | Faroeste",
+    "arquivo": "filmes_faroeste.json",
+    "total": 181
+  },
+  {
+    "nome": "Stand Up Comedy",
+    "arquivo": "stand_up_comedy.json",
+    "total": 43
+  },
+  {
+    "nome": "Filmes | Harry Potter",
+    "arquivo": "filmes_harry_potter.json",
+    "total": 10
+  },
+  {
+    "nome": "Filmes | Cinema",
+    "arquivo": "filmes_cinema_cam.json",
+    "total": 7
+  },
+  {
+    "nome": "Filmes | DC Comics",
+    "arquivo": "filmes_dc_comics.json",
+    "total": 46
+  },
+  {
+    "nome": "Filmes | Marvel",
+    "arquivo": "filmes_marvel.json",
+    "total": 61
+  },
+  {
+    "nome": "Séries |Discovery+",
+    "arquivo": "series_discovery.json",
+    "total": 5094
+  },
+  {
+    "nome": "Séries |Max",
+    "arquivo": "series_max.json",
+    "total": 8867
+  },
+  {
+    "nome": "Séries |Netflix",
+    "arquivo": "series_netflix.json",
+    "total": 24519
+  },
+  {
+    "nome": "Séries |Disney+",
+    "arquivo": "series_disney.json",
+    "total": 9974
+  },
+  {
+    "nome": "Séries |STAR+",
+    "arquivo": "series_star.json",
+    "total": 6242
+  },
+  {
+    "nome": "Séries |Paramount+",
+    "arquivo": "series_paramount.json",
+    "total": 4774
+  },
+  {
+    "nome": "Séries |Crunchyroll",
+    "arquivo": "series_crunchyroll.json",
+    "total": 11664
+  },
+  {
+    "nome": "Doramas",
+    "arquivo": "doramas.json",
+    "total": 4039
+  },
+  {
+    "nome": "Mini Séries ",
+    "arquivo": "mini_series_shorts.json",
+    "total": 71
+  },
+  {
+    "nome": "Séries | Apple TV",
+    "arquivo": "series_apple_tv.json",
+    "total": 3181
+  },
+  {
+    "nome": "Séries |Globoplay",
+    "arquivo": "series_globoplay.json",
+    "total": 9753
+  },
+  {
+    "nome": "Séries |Outros Streamings",
+    "arquivo": "series_outros_streamings.json",
+    "total": 7360
+  },
+  {
+    "nome": "Novelas Turcas",
+    "arquivo": "novelas_turcas.json",
+    "total": 5898
+  },
+  {
+    "nome": "Séries |Amazon Prime Video",
+    "arquivo": "series_amazon_prime_video.json",
+    "total": 14455
+  },
+  {
+    "nome": "Novelas",
+    "arquivo": "novelas.json",
+    "total": 62841
+  },
+  {
+    "nome": "Séries |Legendados",
+    "arquivo": "series_legendados.json",
+    "total": 1504
+  },
+  {
+    "nome": "Séries |Brasil Paralelo",
+    "arquivo": "series_brasil_paralelo.json",
+    "total": 178
+  },
+  {
+    "nome": "Séries |NBC",
+    "arquivo": "series_nbc.json",
+    "total": 55
+  },
+  {
+    "nome": "Filmes",
+    "arquivo": "filmes.json",
+    "total": 465
+  },
+  {
+    "nome": "Especial | Canais de TV e Séries",
+    "arquivos": [
+      "polos_opostos.json",
+      "serie_one_piece_s01.json",
+      "serie_the_mick_s01.json",
+      "serie_ncis_tony_ziva_s01.json",
+      "serie_musica_e_sonhos_s01.json",
+      "serie_trapped_s01.json",
+      "reality_meu_namorado_coreano_s01.json",
+      "dorama_de_repente_humana_s01.json",
+      "dorama_o_amor_pode_ser_traduzido.json",
+      "dorama_hong_a_infiltrada.json",
+      "dorama_speed_and_love_s01.json",
+      "dorama_melhor_de_tudo_s01.json",
+      "dorama_pro_bono_s01.json",
+      "dorama_beijo_explosivo_s01.json",
+      "dorama_o_manipulado_s01.json",
+      "dorama_desprazer_em_te_conhecer_s01.json",
+      "dorama_romanticos_anonimos_s01.json",
+      "dorama_gostinho_de_amor_s01.json",
+      "dorama_um_bom_garoto_s01.json",
+      "dorama_unicornio_implacavel_s01.json",
+      "serie_sem_piedade_s01.json",
+      "dorama_classe_dos_herois_fracos_s01.json",
+      "dorama_uma_seul_desconhecida_s01.json",
+      "dorama_amor_de_cinema_s01.json",
+      "dorama_a_boa_mae_ma_s01.json",
+      "dorama_karma_s01.json",
+      "dorama_newtopia_s01.json",
+      "dorama_seguro_para_divorciados_s01.json",
+      "dorama_kakegurui_aposta_s01.json",
+      "dorama_extracurricular_s01.json",
+      "dorama_doce_engano_s01.json",
+      "dorama_resident_playbook_s01.json",
+      "dorama_depois_do_adeus_s01.json",
+      "dorama_mr_plankton_s01.json",
+      "dorama_amor_e_batatas_s01.json",
+      "dorama_the_trunk_s01.json",
+      "dorama_rainha_das_lagrimas_s01.json",
+      "dorama_o_amor_mora_ao_lado_s01.json",
+      "dorama_escola_dos_romances_proibidos_s01.json",
+      "dorama_se_a_vida_te_der_tangerinas_s01.json",
+      "dorama_pergunte_as_estrelas_s01.json",
+      "dorama_flores_no_deserto_s01.json",
+      "dorama_agency_s01.json",
+      "dorama_desgraca_ao_seu_dispor_s01.json",
+      "serie_stick_s01.json",
+      "series_careme_o_rebelde_da_culinaria_s01.json",
+      "serie_o_melhor_infarto_da_minha_vida_s01.json",
+      "serie_senna_s01.json",
+      "serie_round_6_s01.json",
+      "serie_adamas_s01.json",
+      "reality_ilha_da_tentacao_island_s01.json",
+      "serie_o_dia_do_chacal_s01.json",
+      "serie_pure_genius_s01.json",
+      "serie_respira_s01.json",
+      "serie_ted_a_serie_s01.json",
+      "serie_criadas_e_malvadas_s01.json",
+      "serie_impuros_s01.json",
+      "serie_origem_s01_dub.json",
+      "serie_lupin_s01.json",
+      "serie_manual_d_assassinato_para_boas_garotas_s01.json",
+      "serie_sangue_novo_s01.json",
+      "serie_maria_e_o_cangaco_s01.json",
+      "serie_cacador_d_demonios_s01.json",
+      "serie_segundas_intencoes_s01.json",
+      "serie_demolidor_renascido_s01.json",
+      "serie_adolescencia_s01.json",
+      "serie_chewing_gum_s01.json",
+      "serie_nem_tao_perfeito_assim_s01.json",
+      "serie_nem_tao_perfeito_assim_s02.json",
+      "serie_sintonia_s05.json",
+      "serie_dom_s01.json",
+      "anime_devil_may_cry_s01.json",
+      "anime_attack_on_titan_s01.json",
+      "geral.json",
+      "regras_ocultas_da_biblia.json",
+      "narcoamerica.json",
+      "invasao.json"
+    ],
+    "total": 978
+  }
+]
