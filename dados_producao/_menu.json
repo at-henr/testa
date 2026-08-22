@@ -39,5 +39,4 @@
   {"nome":"Series | Dorama","arquivo":"series_dorama.json","total":495},
   {"nome":"Series | Claro video","arquivo":"series_claro_video.json","total":207},
   {"nome":"Series | Discovery Plus","arquivo":"series_discovery_plus.json","total":899},
-  {"nome":"Series | AMC Plus","arquivo":"series_amc_plus.json","total":82},
-  {"nome":"Series | Brasil Paralelo","arquivo":"series_brasil_paralelo.json","total":3}]
+  {"nome":"Series | AMC Plus","arquivo":"series_amc_plus.json","total":82}]
