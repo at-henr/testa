@@ -1,0 +1,238 @@
+[
+  {
+    "nome": "Filmes | Lancamentos",
+    "arquivo": "filmes_lancamentos.json",
+    "total": 1149
+  },
+  {
+    "nome": "Filmes | Nacionais",
+    "arquivo": "filmes_nacionais.json",
+    "total": 587
+  },
+  {
+    "nome": "Filmes | Ficcao",
+    "arquivo": "filmes_ficcao.json",
+    "total": 341
+  },
+  {
+    "nome": "Filmes | Crime",
+    "arquivo": "filmes_crime.json",
+    "total": 264
+  },
+  {
+    "nome": "Filmes | Guerra",
+    "arquivo": "filmes_guerra.json",
+    "total": 81
+  },
+  {
+    "nome": "Filmes | Família",
+    "arquivo": "filmes_familia.json",
+    "total": 82
+  },
+  {
+    "nome": "Filmes | Faroeste",
+    "arquivo": "filmes_faroeste.json",
+    "total": 111
+  },
+  {
+    "nome": "Filmes | Aventura",
+    "arquivo": "filmes_aventura.json",
+    "total": 70
+  },
+  {
+    "nome": "Filmes | Romance",
+    "arquivo": "filmes_romance.json",
+    "total": 710
+  },
+  {
+    "nome": "Filmes | Religiosos",
+    "arquivo": "filmes_religiosos.json",
+    "total": 101
+  },
+  {
+    "nome": "Filmes | Animacao",
+    "arquivo": "filmes_animacao.json",
+    "total": 1051
+  },
+  {
+    "nome": "Filmes | Fantasia",
+    "arquivo": "filmes_fantasia.json",
+    "total": 394
+  },
+  {
+    "nome": "Filmes | Suspense",
+    "arquivo": "filmes_suspense.json",
+    "total": 789
+  },
+  {
+    "nome": "Documentarios",
+    "arquivo": "documentarios.json",
+    "total": 663
+  },
+  {
+    "nome": "Filmes | Acao",
+    "arquivo": "filmes_acao.json",
+    "total": 2129
+  },
+  {
+    "nome": "Filmes | Comedia",
+    "arquivo": "filmes_comedia.json",
+    "total": 2413
+  },
+  {
+    "nome": "Filmes | Drama",
+    "arquivo": "filmes_drama.json",
+    "total": 3102
+  },
+  {
+    "nome": "Filmes | Terror",
+    "arquivo": "filmes_terror.json",
+    "total": 1646
+  },
+  {
+    "nome": "Filmes | Cinema",
+    "arquivo": "filmes_cinema.json",
+    "total": 21
+  },
+  {
+    "nome": "Filmes | Legendados",
+    "arquivo": "filmes_legendados.json",
+    "total": 1176
+  },
+
+  {
+    "nome": "Filmes | Lancamentos",
+    "arquivo": "filmes_lancamentos.json",
+    "total": 1149
+  },
+  {
+    "nome": "Series | Outras Produtoras",
+    "arquivo": "series_outras_produtoras.json",
+    "total": 25157
+  },
+  {
+    "nome": "Series | Disney Plus",
+    "arquivo": "series_disney_plus.json",
+    "total": 15170
+  },
+  {
+    "nome": "Series | Netflix",
+    "arquivo": "series_netflix.json",
+    "total": 31204
+  },
+  {
+    "nome": "Series | Amazon Prime Video",
+    "arquivo": "series_amazon_prime_video.json",
+    "total": 21200
+  },
+  {
+    "nome": "Series | Paramount",
+    "arquivo": "series_paramount.json",
+    "total": 9268
+  },
+  {
+    "nome": "Series | Max",
+    "arquivo": "series_max.json",
+    "total": 16473
+  },
+  {
+    "nome": "Series | Globoplay",
+    "arquivo": "series_globoplay.json",
+    "total": 17664
+  },
+  {
+    "nome": "Series | DirecTV",
+    "arquivo": "series_directv.json",
+    "total": 3253
+  },
+  {
+    "nome": "Series | Apple TV Plus",
+    "arquivo": "series_apple_tv_plus.json",
+    "total": 6626
+  },
+  {
+    "nome": "Series | Legendadas",
+    "arquivo": "series_legendadas.json",
+    "total": 36531
+  },
+  {
+    "nome": "Series | Lionsgate",
+    "arquivo": "series_lionsgate.json",
+    "total": 100
+  },
+  {
+    "nome": "Series | Star Plus",
+    "arquivo": "series_star_plus.json",
+    "total": 4215
+  },
+  {
+    "nome": "Series | Turcas",
+    "arquivo": "series_turcas.json",
+    "total": 6648
+  },
+  {
+    "nome": "Series | Crunchyroll",
+    "arquivo": "series_crunchyroll.json",
+    "total": 6939
+  },
+  {
+    "nome": "Programas de TV",
+    "arquivo": "programas_de_tv.json",
+    "total": 325
+  },
+  {
+    "nome": "Novelas",
+    "arquivo": "novelas.json",
+    "total": 44860
+  },
+  {
+    "nome": "Series | Funimation Now",
+    "arquivo": "series_funimation_now.json",
+    "total": 982
+  },
+  {
+    "nome": "Series | Dorama",
+    "arquivo": "series_dorama.json",
+    "total": 16699
+  },
+  {
+    "nome": "Series | Claro video",
+    "arquivo": "series_claro_video.json",
+    "total": 222
+  },
+  {
+    "nome": "Series | Discovery Plus",
+    "arquivo": "series_discovery_plus.json",
+    "total": 7610
+  },
+  {
+    "nome": "Series | AMC Plus",
+    "arquivo": "series_amc_plus.json",
+    "total": 82
+  },
+  {
+    "nome": "Series | Brasil Paralelo",
+    "arquivo": "series_brasil_paralelo.json",
+    "total": 284
+  },
+  {
+    "nome": "Series | SBT",
+    "arquivo": "series_sbt.json",
+    "total": 782
+  },
+  {
+    "nome": "Series | Univer",
+    "arquivo": "series_univer.json",
+    "total": 210
+  },
+  {
+    "nome": "Series | Play Plus",
+    "arquivo": "series_play_plus.json",
+    "total": 19
+  },
+  {
+    "nome": "Series | PlutoTV",
+    "arquivo": "series_plutotv.json",
+    "total": 122
+  }
+]
