@@ -1,0 +1,173 @@
+[
+  
+  {
+    "nome": "Filmes | Lancamentos",
+    "arquivo": "filmes_lancamentos.json",
+    "total": 1149
+  },
+  {
+    "nome": "Filmes | Acao",
+    "arquivo": "filmes_acao.json",
+    "total": 2130
+  },
+  {
+    "nome": "Filmes | Animacao",
+    "arquivo": "filmes_animacao.json",
+    "total": 1051
+  },
+  {
+    "nome": "Filmes | Aventura",
+    "arquivo": "filmes_aventura.json",
+    "total": 289
+  },
+  {
+    "nome": "Filmes | Comedia",
+    "arquivo": "filmes_comedia.json",
+    "total": 2413
+  },
+  {
+    "nome": "Filmes | Crime",
+    "arquivo": "filmes_crime.json",
+    "total": 264
+  },
+  {
+    "nome": "Filmes | Drama",
+    "arquivo": "filmes_drama.json",
+    "total": 4700
+  },
+  {
+    "nome": "Filmes | Família",
+    "arquivo": "filmes_familia.json",
+    "total": 82
+  },
+  {
+    "nome": "Filmes | Fantasia",
+    "arquivo": "filmes_fantasia.json",
+    "total": 394
+  },
+  {
+    "nome": "Filmes | Faroeste",
+    "arquivo": "filmes_faroeste.json",
+    "total": 355
+  },
+  {
+    "nome": "Filmes | Ficcao",
+    "arquivo": "filmes_ficcao.json",
+    "total": 341
+  },
+  {
+    "nome": "Filmes | Guerra",
+    "arquivo": "filmes_guerra.json",
+    "total": 210
+  },
+  {
+    "nome": "Documentarios",
+    "arquivo": "documentarios.json",
+    "total": 663
+  },
+  {
+    "nome": "Filmes | Nacionais",
+    "arquivo": "filmes_nacionais.json",
+    "total": 587
+  },
+  {
+    "nome": "Filmes | Religiosos",
+    "arquivo": "filmes_religiosos.json",
+    "total": 212
+  },
+  {
+    "nome": "Filmes | Romance",
+    "arquivo": "filmes_romance.json",
+    "total": 1333
+  },
+  {
+    "nome": "Filmes | Suspense",
+    "arquivo": "filmes_suspense.json",
+    "total": 1510
+  },
+  {
+    "nome": "Filmes | Terror",
+    "arquivo": "filmes_terror.json",
+    "total": 2999
+  },
+  {
+    "nome": "Filmes | Lançamentos",
+    "arquivo": "filmes_lancamentos.json",
+    "total": 727
+  },
+  {
+    "nome": "Filmes | Mais Buscados",
+    "arquivo": "filmes_mais_buscados.json",
+    "total": 41
+  },
+  {
+    "nome": "Filmes | Indicados Oscar",
+    "arquivo": "filmes_indicados_oscar_2025.json",
+    "total": 21
+  },
+  {
+    "nome": "Filmes | Ação",
+    "arquivo": "filmes_acao.json",
+    "total": 1159
+  },
+  {
+    "nome": "Filmes | Classicos",
+    "arquivo": "filmes_classicos.json",
+    "total": 238
+  },
+  {
+    "nome": "Filmes | Coletâneas",
+    "arquivo": "filmes_coletaneas.json",
+    "total": 135
+  },
+  {
+    "nome": "Filmes | Comédia",
+    "arquivo": "filmes_comedia.json",
+    "total": 1756
+  },
+  {
+    "nome": "Filmes | DC",
+    "arquivo": "filmes_dc.json",
+    "total": 49
+  },
+  {
+    "nome": "Filmes | Animação",
+    "arquivo": "filmes_animacao.json",
+    "total": 637
+  },
+  {
+    "nome": "Filmes | 4k",
+    "arquivo": "filmes_4k.json",
+    "total": 735
+  },
+  {
+    "nome": "Filmes | Documentário",
+    "arquivo": "filmes_documentario.json",
+    "total": 405
+  },
+  {
+    "nome": "Filmes | Familia",
+    "arquivo": "filmes_familia.json",
+    "total": 76
+  },
+  {
+    "nome": "Filmes | Fantasia e Ficção",
+    "arquivo": "filmes_fantasia_e_ficcao.json",
+    "total": 556
+  },
+  {
+    "nome": "Filmes | Marvel",
+    "arquivo": "filmes_marvel.json",
+    "total": 63
+  },
+  {
+    "nome": "Filmes | Nacional",
+    "arquivo": "filmes_nacional.json",
+    "total": 229
+  },
+  {
+    "nome": "ReelShort",
+    "arquivo": "reelshort.json",
+    "total": 28
+  }
+]
