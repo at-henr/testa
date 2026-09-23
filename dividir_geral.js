@@ -2,19 +2,39 @@ const fs = require('fs');
 const path = require('path');
 
 const PASTA_PRODUCAO = './dados_producao';
-const ARQUIVO_GERAL = path.join(PASTA_PRODUCAO, 'geral.json');
 const MENU_ARQUIVO = path.join(PASTA_PRODUCAO, '_menu.json');
 
-// 8 Nomes criativos para disfarçar a quebra do arquivo
-const nomesSessoes = [
-    "Seleção do Grande Brother",
-    "Sessão Pipoca",
-    "Maratona de Fim de Semana",
-    "Clássicos Ocultos",
-    "Em Alta na Semana",
-    "Top Escolhas da Casa",
-    "Noites de Insônia",
-    "Sessão Descoberta"
+// Os 8 arquivos que restaram no seu computador
+const arquivosFonte = [
+    "classicos_ocultos.json",
+    "em_alta_na_semana.json",
+    "maratona_de_fim_de_semana.json",
+    "noites_de_insonia.json",
+    "selecao_do_grande_brother.json",
+    "sessao_descoberta.json",
+    "sessao_pipoca.json",
+    "top_escolhas_da_casa.json"
+];
+
+// Expressão regular para identificar séries pelo nome
+const regexSerie = /[sS]\s*\d{1,4}\s*[-_\.]?\s*[eE]\s*\d{1,4}|[tT]emp(?:orada)?\s*\d+|[eE]p(?:is[oó]dio)?\s*\d+/i;
+
+// Nomes para as 16 sessões de Filmes
+const sessoesFilmes = [
+    "Sessão Pipoca", "Clássicos Ocultos", "Em Alta na Semana", 
+    "Top Escolhas da Casa", "Noites de Insônia", "Adrenalina Pura", 
+    "Boas Risadas", "Aventuras Épicas", "Dramas Envolventes", 
+    "Sucessos de Bilheteria", "Ação Sem Limites", "Ficção e Além",
+    "Tensão Máxima", "Sessão Nostalgia", "Escolha dos Editores", "Cine Sofá"
+];
+
+// Nomes para as 16 sessões de Séries
+const sessoesSeries = [
+    "Seleção Especial", "Maratona de Fim de Semana", "Sessão Descoberta", 
+    "Para Maratonar", "Tendências Globais", "Mistérios e Suspense", 
+    "Favoritos da Galera", "Indies e Cults", "Magia e Fantasia", 
+    "Histórias Reais", "Para Assistir a Dois", "Cineastas Visionários",
+    "Recomendados Para Você", "O Melhor do Entretenimento", "Explodindo Cabeças", "Lágrimas e Sorrisos"
 ];
 
 function formatarNomeArquivo(nome) {
@@ -26,58 +46,97 @@ function formatarNomeArquivo(nome) {
         .replace(/^_+|_+$/g, '');
 }
 
-function quebrarArquivoGeral() {
-    if (!fs.existsSync(ARQUIVO_GERAL)) {
-        console.error("❌ Arquivo geral.json não encontrado na pasta dados_producao!");
+function processarAcaoResgate() {
+    console.log("⏳ Lendo os 8 arquivos restantes e reconstruindo a base geral...");
+    
+    let dadosGerais = [];
+
+    // Lê cada um dos 8 arquivos e junta tudo em uma única matriz (array)
+    for (const arquivo of arquivosFonte) {
+        const caminhoCompleto = path.join(PASTA_PRODUCAO, arquivo);
+        if (fs.existsSync(caminhoCompleto)) {
+            const conteudo = JSON.parse(fs.readFileSync(caminhoCompleto, 'utf8'));
+            dadosGerais = dadosGerais.concat(conteudo);
+            console.log(`📥 Carregado: ${arquivo} (${conteudo.length} itens)`);
+        } else {
+            console.warn(`⚠️ Arquivo não encontrado e será ignorado: ${arquivo}`);
+        }
+    }
+
+    if (dadosGerais.length === 0) {
+        console.error("❌ Nenhum dado encontrado para processar. Verifique os arquivos.");
         return;
     }
 
-    console.log("⏳ Lendo geral.json (isso pode demorar alguns segundos na RAM)...");
-    const dadosGerais = JSON.parse(fs.readFileSync(ARQUIVO_GERAL, 'utf8'));
-    const totalItens = dadosGerais.length;
+    console.log(`\n📦 Total de itens resgatados: ${dadosGerais.length}`);
     
-    console.log(`📦 Total de itens encontrados no Geral: ${totalItens}`);
+    const listaFilmes = [];
+    const listaSeries = [];
 
-    // Divide os itens matematicamente entre as 8 sessões
-    const tamanhoFatia = Math.ceil(totalItens / nomesSessoes.length);
-    
+    // SEPARAÇÃO INTELIGENTE: Filmes x Séries
+    console.log("🔍 Separando Filmes e Séries...");
+    for (const item of dadosGerais) {
+        if (regexSerie.test(item.n) || item.t === 'series') {
+            listaSeries.push(item);
+        } else {
+            listaFilmes.push(item);
+        }
+    }
+
+    console.log(`🎬 Filmes encontrados: ${listaFilmes.length}`);
+    console.log(`📺 Séries encontradas: ${listaSeries.length}`);
+
     let menuGeral = [];
-    if (fs.existsSync(MENU_ARQUIVO)) {
-        menuGeral = JSON.parse(fs.readFileSync(MENU_ARQUIVO, 'utf8'));
-        // Remove a entrada "Geral" velha do menu
-        menuGeral = menuGeral.filter(item => item.arquivo !== 'geral.json');
+    
+    // Limpa o menu recriando do zero para evitar sujeira
+    // FUNÇÃO PARA FATIAR E SALVAR
+    function fatiarLista(lista, nomesSessoes, tagFiltro) {
+        if (lista.length === 0) return;
+        const tamanhoFatia = Math.ceil(lista.length / nomesSessoes.length);
+        
+        for (let i = 0; i < nomesSessoes.length; i++) {
+            const inicio = i * tamanhoFatia;
+            const fim = inicio + tamanhoFatia;
+            const pedaco = lista.slice(inicio, fim);
+            
+            if (pedaco.length === 0) continue;
+
+            const nomeSessaoReal = `${nomesSessoes[i]} ${tagFiltro}`;
+            const nomeArquivoSessao = `${formatarNomeArquivo(nomesSessoes[i])}_${tagFiltro.replace(/[^a-z]/gi, '').toLowerCase()}.json`;
+            
+            const caminhoArquivo = path.join(PASTA_PRODUCAO, nomeArquivoSessao);
+            fs.writeFileSync(caminhoArquivo, JSON.stringify(pedaco, null, 2));
+            
+            menuGeral.push({
+                nome: nomeSessaoReal,
+                arquivo: nomeArquivoSessao,
+                total: pedaco.length
+            });
+            
+            console.log(`✅ Gerado: ${nomeSessaoReal} -> ${pedaco.length} itens`);
+        }
     }
 
-    for (let i = 0; i < nomesSessoes.length; i++) {
-        const nomeSessao = nomesSessoes[i];
-        const nomeArquivoSessao = `${formatarNomeArquivo(nomeSessao)}.json`;
-        
-        const inicio = i * tamanhoFatia;
-        const fim = inicio + tamanhoFatia;
-        const pedaco = dadosGerais.slice(inicio, fim);
-        
-        if (pedaco.length === 0) continue;
+    console.log("\n🔪 Fatiando Filmes...");
+    fatiarLista(listaFilmes, sessoesFilmes, "(Filmes)");
 
-        const caminhoArquivo = path.join(PASTA_PRODUCAO, nomeArquivoSessao);
-        fs.writeFileSync(caminhoArquivo, JSON.stringify(pedaco, null, 2));
-        
-        // Adiciona a nova sessão disfarçada no menu do app
-        menuGeral.push({
-            nome: nomeSessao,
-            arquivo: nomeArquivoSessao,
-            total: pedaco.length
-        });
-        
-        console.log(`✅ Criado: ${nomeSessao} -> ${pedaco.length} itens (${nomeArquivoSessao})`);
-    }
+    console.log("\n🔪 Fatiando Séries...");
+    fatiarLista(listaSeries, sessoesSeries, "(Séries)");
 
-    // Atualiza o menu físico
     fs.writeFileSync(MENU_ARQUIVO, JSON.stringify(menuGeral, null, 2));
-    console.log("\n✅ _menu.json atualizado com as novas sessões!");
+    console.log("\n✅ _menu.json atualizado!");
 
-    // Passo Crítico: DELETA O ARQUIVO GIGANTE para o GitHub não bloquear
-    fs.unlinkSync(ARQUIVO_GERAL);
-    console.log("🗑️ geral.json original (144MB) deletado com sucesso!");
+    // Limpeza dos 8 arquivos antigos para não sobrecarregar o GitHub
+    console.log("\n🧹 Apagando os arquivos originais grandes...");
+    for (const arquivo of arquivosFonte) {
+        const caminhoCompleto = path.join(PASTA_PRODUCAO, arquivo);
+        if (fs.existsSync(caminhoCompleto)) {
+            fs.unlinkSync(caminhoCompleto);
+            console.log(`🗑️ Deletado: ${arquivo}`);
+        }
+    }
+
+    console.log("\n🚀 Concluído! Tudo pronto para o git push.");
 }
 
-quebrarArquivoGeral();
+processarAcaoResgate();

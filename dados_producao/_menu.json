@@ -1,42 +1,162 @@
 [
   {
-    "nome": "Seleção do Grande Brother",
-    "arquivo": "selecao_do_grande_brother.json",
-    "total": 39545
+    "nome": "Sessão Pipoca (Filmes)",
+    "arquivo": "sessao_pipoca_filmes.json",
+    "total": 1888
   },
   {
-    "nome": "Sessão Pipoca",
-    "arquivo": "sessao_pipoca.json",
-    "total": 39545
+    "nome": "Clássicos Ocultos (Filmes)",
+    "arquivo": "classicos_ocultos_filmes.json",
+    "total": 1888
   },
   {
-    "nome": "Maratona de Fim de Semana",
-    "arquivo": "maratona_de_fim_de_semana.json",
-    "total": 39545
+    "nome": "Em Alta na Semana (Filmes)",
+    "arquivo": "em_alta_na_semana_filmes.json",
+    "total": 1888
   },
   {
-    "nome": "Clássicos Ocultos",
-    "arquivo": "classicos_ocultos.json",
-    "total": 39545
+    "nome": "Top Escolhas da Casa (Filmes)",
+    "arquivo": "top_escolhas_da_casa_filmes.json",
+    "total": 1888
   },
   {
-    "nome": "Em Alta na Semana",
-    "arquivo": "em_alta_na_semana.json",
-    "total": 39545
+    "nome": "Noites de Insônia (Filmes)",
+    "arquivo": "noites_de_insonia_filmes.json",
+    "total": 1888
   },
   {
-    "nome": "Top Escolhas da Casa",
-    "arquivo": "top_escolhas_da_casa.json",
-    "total": 39545
+    "nome": "Adrenalina Pura (Filmes)",
+    "arquivo": "adrenalina_pura_filmes.json",
+    "total": 1888
   },
   {
-    "nome": "Noites de Insônia",
-    "arquivo": "noites_de_insonia.json",
-    "total": 39545
+    "nome": "Boas Risadas (Filmes)",
+    "arquivo": "boas_risadas_filmes.json",
+    "total": 1888
   },
   {
-    "nome": "Sessão Descoberta",
-    "arquivo": "sessao_descoberta.json",
-    "total": 39539
+    "nome": "Aventuras Épicas (Filmes)",
+    "arquivo": "aventuras_epicas_filmes.json",
+    "total": 1888
+  },
+  {
+    "nome": "Dramas Envolventes (Filmes)",
+    "arquivo": "dramas_envolventes_filmes.json",
+    "total": 1888
+  },
+  {
+    "nome": "Sucessos de Bilheteria (Filmes)",
+    "arquivo": "sucessos_de_bilheteria_filmes.json",
+    "total": 1888
+  },
+  {
+    "nome": "Ação Sem Limites (Filmes)",
+    "arquivo": "acao_sem_limites_filmes.json",
+    "total": 1888
+  },
+  {
+    "nome": "Ficção e Além (Filmes)",
+    "arquivo": "ficcao_e_alem_filmes.json",
+    "total": 1888
+  },
+  {
+    "nome": "Tensão Máxima (Filmes)",
+    "arquivo": "tensao_maxima_filmes.json",
+    "total": 1888
+  },
+  {
+    "nome": "Sessão Nostalgia (Filmes)",
+    "arquivo": "sessao_nostalgia_filmes.json",
+    "total": 1888
+  },
+  {
+    "nome": "Escolha dos Editores (Filmes)",
+    "arquivo": "escolha_dos_editores_filmes.json",
+    "total": 1888
+  },
+  {
+    "nome": "Cine Sofá (Filmes)",
+    "arquivo": "cine_sofa_filmes.json",
+    "total": 1883
+  },
+  {
+    "nome": "Seleção Especial (Séries)",
+    "arquivo": "selecao_especial_sries.json",
+    "total": 17885
+  },
+  {
+    "nome": "Maratona de Fim de Semana (Séries)",
+    "arquivo": "maratona_de_fim_de_semana_sries.json",
+    "total": 17885
+  },
+  {
+    "nome": "Sessão Descoberta (Séries)",
+    "arquivo": "sessao_descoberta_sries.json",
+    "total": 17885
+  },
+  {
+    "nome": "Para Maratonar (Séries)",
+    "arquivo": "para_maratonar_sries.json",
+    "total": 17885
+  },
+  {
+    "nome": "Tendências Globais (Séries)",
+    "arquivo": "tendencias_globais_sries.json",
+    "total": 17885
+  },
+  {
+    "nome": "Mistérios e Suspense (Séries)",
+    "arquivo": "misterios_e_suspense_sries.json",
+    "total": 17885
+  },
+  {
+    "nome": "Favoritos da Galera (Séries)",
+    "arquivo": "favoritos_da_galera_sries.json",
+    "total": 17885
+  },
+  {
+    "nome": "Indies e Cults (Séries)",
+    "arquivo": "indies_e_cults_sries.json",
+    "total": 17885
+  },
+  {
+    "nome": "Magia e Fantasia (Séries)",
+    "arquivo": "magia_e_fantasia_sries.json",
+    "total": 17885
+  },
+  {
+    "nome": "Histórias Reais (Séries)",
+    "arquivo": "historias_reais_sries.json",
+    "total": 17885
+  },
+  {
+    "nome": "Para Assistir a Dois (Séries)",
+    "arquivo": "para_assistir_a_dois_sries.json",
+    "total": 17885
+  },
+  {
+    "nome": "Cineastas Visionários (Séries)",
+    "arquivo": "cineastas_visionarios_sries.json",
+    "total": 17885
+  },
+  {
+    "nome": "Recomendados Para Você (Séries)",
+    "arquivo": "recomendados_para_voce_sries.json",
+    "total": 17885
+  },
+  {
+    "nome": "O Melhor do Entretenimento (Séries)",
+    "arquivo": "o_melhor_do_entretenimento_sries.json",
+    "total": 17885
+  },
+  {
+    "nome": "Explodindo Cabeças (Séries)",
+    "arquivo": "explodindo_cabecas_sries.json",
+    "total": 17885
+  },
+  {
+    "nome": "Lágrimas e Sorrisos (Séries)",
+    "arquivo": "lagrimas_e_sorrisos_sries.json",
+    "total": 17876
   }
 ]
