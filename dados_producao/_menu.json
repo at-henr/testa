@@ -1,0 +1,42 @@
+[
+  {
+    "nome": "Seleção do Grande Brother",
+    "arquivo": "selecao_do_grande_brother.json",
+    "total": 39545
+  },
+  {
+    "nome": "Sessão Pipoca",
+    "arquivo": "sessao_pipoca.json",
+    "total": 39545
+  },
+  {
+    "nome": "Maratona de Fim de Semana",
+    "arquivo": "maratona_de_fim_de_semana.json",
+    "total": 39545
+  },
+  {
+    "nome": "Clássicos Ocultos",
+    "arquivo": "classicos_ocultos.json",
+    "total": 39545
+  },
+  {
+    "nome": "Em Alta na Semana",
+    "arquivo": "em_alta_na_semana.json",
+    "total": 39545
+  },
+  {
+    "nome": "Top Escolhas da Casa",
+    "arquivo": "top_escolhas_da_casa.json",
+    "total": 39545
+  },
+  {
+    "nome": "Noites de Insônia",
+    "arquivo": "noites_de_insonia.json",
+    "total": 39545
+  },
+  {
+    "nome": "Sessão Descoberta",
+    "arquivo": "sessao_descoberta.json",
+    "total": 39539
+  }
+]
