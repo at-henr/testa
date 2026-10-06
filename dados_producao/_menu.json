@@ -1,0 +1,257 @@
+[
+  {
+    "nome": "Maratona de Fim de Semana",
+    "arquivo": "geral.json",
+    "total": 3750
+  },
+  {
+    "nome": "FILMES | Comédia",
+    "arquivo": "filmes_comedia.json",
+    "total": 2091
+  },
+  {
+    "nome": "FILMES | Crime",
+    "arquivo": "filmes_crime.json",
+    "total": 293
+  },
+  {
+    "nome": "FILMES | Drama",
+    "arquivo": "filmes_drama.json",
+    "total": 3051
+  },
+  {
+    "nome": "FILMES | Fantasia",
+    "arquivo": "filmes_fantasia.json",
+    "total": 382
+  },
+  {
+    "nome": "FILMES | Faroeste",
+    "arquivo": "filmes_faroeste.json",
+    "total": 147
+  },
+  {
+    "nome": "FILMES | Ficcao",
+    "arquivo": "filmes_ficcao.json",
+    "total": 382
+  },
+  {
+    "nome": "FILMES | Guerra",
+    "arquivo": "filmes_guerra.json",
+    "total": 125
+  },
+  {
+    "nome": "FILMES | Infantis",
+    "arquivo": "filmes_infantis.json",
+    "total": 53
+  },
+  {
+    "nome": "FILMES | Nacionais",
+    "arquivo": "filmes_nacionais.json",
+    "total": 954
+  },
+  {
+    "nome": "FILMES | Natalino",
+    "arquivo": "filmes_natalino.json",
+    "total": 192
+  },
+  {
+    "nome": "FILMES | Oscar 2024",
+    "arquivo": "filmes_oscar_2024.json",
+    "total": 6
+  },
+  {
+    "nome": "FILMES | Oscar 2025",
+    "arquivo": "filmes_oscar_2025.json",
+    "total": 22
+  },
+  {
+    "nome": "FILMES | Religiosos",
+    "arquivo": "filmes_religiosos.json",
+    "total": 98
+  },
+  {
+    "nome": "FILMES | Romance",
+    "arquivo": "filmes_romance.json",
+    "total": 616
+  },
+  {
+    "nome": "FILMES | Suspense",
+    "arquivo": "filmes_suspense.json",
+    "total": 814
+  },
+  {
+    "nome": "FILMES | Terror",
+    "arquivo": "filmes_terror.json",
+    "total": 1662
+  },
+  {
+    "nome": "FILMES | Ação",
+    "arquivo": "filmes_acao.json",
+    "total": 363
+  },
+  {
+    "nome": "FILMES | Animação",
+    "arquivo": "filmes_animacao.json",
+    "total": 182
+  },
+  {
+    "nome": "FILMES | Família",
+    "arquivo": "filmes_familia.json",
+    "total": 79
+  },
+  {
+    "nome": "FILMES | Lançamentos",
+    "arquivo": "filmes_lancamentos.json",
+    "total": 716
+  },
+  {
+    "nome": "FILMES | 4K UHD",
+    "arquivo": "filmes_4k_uhd.json",
+    "total": 1684
+  },
+  {
+    "nome": "FILMES | Legendados",
+    "arquivo": "filmes_legendados.json",
+    "total": 10422
+  },
+  {
+    "nome": "FILMES | Aventura",
+    "arquivo": "filmes_aventura.json",
+    "total": 30
+  },
+  {
+    "nome": "FILMES | Dramas Curtos",
+    "arquivo": "filmes_dramas_curtos.json",
+    "total": 2075
+  },
+  {
+    "nome": "Cinema",
+    "arquivo": "cinema.json",
+    "total": 14
+  },
+  {
+    "nome": "SÉRIES | AMC PLUS",
+    "arquivo": "series_amc_plus.json",
+    "total": 82
+  },
+  {
+    "nome": "SÉRIES | AMAZON PRIME VIDEO",
+    "arquivo": "series_amazon_prime_video.json",
+    "total": 21465
+  },
+  {
+    "nome": "SÉRIES | APPLE TV PLUS",
+    "arquivo": "series_apple_tv_plus.json",
+    "total": 6554
+  },
+  {
+    "nome": "SÉRIES | BRASIL PARALELO",
+    "arquivo": "series_brasil_paralelo.json",
+    "total": 281
+  },
+  {
+    "nome": "SÉRIES | CLARO VIDEO",
+    "arquivo": "series_claro_video.json",
+    "total": 236
+  },
+  {
+    "nome": "SÉRIES | CRUNCHYROLL",
+    "arquivo": "series_crunchyroll.json",
+    "total": 6838
+  },
+  {
+    "nome": "SÉRIES | DIRECTV",
+    "arquivo": "series_directv.json",
+    "total": 2982
+  },
+  {
+    "nome": "SÉRIES | DISCOVERY PLUS",
+    "arquivo": "series_discovery_plus.json",
+    "total": 7478
+  },
+  {
+    "nome": "SÉRIES | DISNEY PLUS",
+    "arquivo": "series_disney_plus.json",
+    "total": 17182
+  },
+  {
+    "nome": "SÉRIES | DORAMA",
+    "arquivo": "series_dorama.json",
+    "total": 17346
+  },
+  {
+    "nome": "SÉRIES | FUNIMATION NOW",
+    "arquivo": "series_funimation_now.json",
+    "total": 1044
+  },
+  {
+    "nome": "SÉRIES | GLOBOPLAY",
+    "arquivo": "series_globoplay.json",
+    "total": 20409
+  },
+  {
+    "nome": "SÉRIES | LIONSGATE",
+    "arquivo": "series_lionsgate.json",
+    "total": 171
+  },
+  {
+    "nome": "SÉRIES | MAX",
+    "arquivo": "series_max.json",
+    "total": 17611
+  },
+  {
+    "nome": "SÉRIES | NETFLIX",
+    "arquivo": "series_netflix.json",
+    "total": 32046
+  },
+  {
+    "nome": "SÉRIES | NOVELAS",
+    "arquivo": "series_novelas.json",
+    "total": 43886
+  },
+  {
+    "nome": "SÉRIES | OUTRAS PRODUTORAS",
+    "arquivo": "series_outras_produtoras.json",
+    "total": 24938
+  },
+  {
+    "nome": "SÉRIES | PARAMOUNT",
+    "arquivo": "series_paramount.json",
+    "total": 9253
+  },
+  {
+    "nome": "SÉRIES | PLUTOTV",
+    "arquivo": "series_plutotv.json",
+    "total": 122
+  },
+  {
+    "nome": "SÉRIES | SBT",
+    "arquivo": "series_sbt.json",
+    "total": 988
+  },
+  {
+    "nome": "SÉRIES | STAR PLUS",
+    "arquivo": "series_star_plus.json",
+    "total": 4489
+  },
+  {
+    "nome": "SÉRIES | TURCAS",
+    "arquivo": "series_turcas.json",
+    "total": 40691
+  },
+  {
+    "nome": "SÉRIES | MEXICANAS",
+    "arquivo": "series_mexicanas.json",
+    "total": 9631
+  },
+  {
+    "nome": "SÉRIES | PORTUGUESAS",
+    "arquivo": "series_portuguesas.json",
+    "total": 152
+  },
+  {
+    "nome": "SÉRIES | INDIANAS",
+    "arquivo": "series_indianas.json",
+    "total": 276
+  }
+]
