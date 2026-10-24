@@ -3,3 +3,4 @@ DS_Store
 # Arquivos ignorados
 lista_master_completa.m3u8
 progresso.json
+tmdb_cache.json

@@ -1,13 +1,28 @@
 [
   {
-    "nome": "Maratona de Fim de Semana",
-    "arquivo": "geral.json",
-    "total": 3750
+    "nome": "FILMES | Lançamentos",
+    "arquivo": "filmes_lancamentos.json",
+    "total": 1060
+  },
+  {
+    "nome": "FILMES | Ação",
+    "arquivo": "filmes_acao.json",
+    "total": 2273
+  },
+  {
+    "nome": "FILMES | Animação",
+    "arquivo": "filmes_animacao.json",
+    "total": 1125
+  },
+  {
+    "nome": "FILMES | Aventura",
+    "arquivo": "filmes_aventura.json",
+    "total": 96
   },
   {
     "nome": "FILMES | Comédia",
     "arquivo": "filmes_comedia.json",
-    "total": 2091
+    "total": 2580
   },
   {
     "nome": "FILMES | Crime",
@@ -85,24 +100,9 @@
     "total": 1662
   },
   {
-    "nome": "FILMES | Ação",
-    "arquivo": "filmes_acao.json",
-    "total": 363
-  },
-  {
-    "nome": "FILMES | Animação",
-    "arquivo": "filmes_animacao.json",
-    "total": 182
-  },
-  {
     "nome": "FILMES | Família",
     "arquivo": "filmes_familia.json",
     "total": 79
-  },
-  {
-    "nome": "FILMES | Lançamentos",
-    "arquivo": "filmes_lancamentos.json",
-    "total": 716
   },
   {
     "nome": "FILMES | 4K UHD",
@@ -113,11 +113,6 @@
     "nome": "FILMES | Legendados",
     "arquivo": "filmes_legendados.json",
     "total": 10422
-  },
-  {
-    "nome": "FILMES | Aventura",
-    "arquivo": "filmes_aventura.json",
-    "total": 30
   },
   {
     "nome": "FILMES | Dramas Curtos",
